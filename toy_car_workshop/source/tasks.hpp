@@ -3,9 +3,9 @@
 
 /**
  * Anzahl vollständiger Autos
- * @param wheels given number of wheels
- * @param bodies given number of car bodies
- * @param figures given number of figures (people)
+ * @param wheels Anzahl gegebener Reifen (4 pro kompletten Wagen)
+ * @param bodies Anzahl gegebener Karosserien (1 pro kompletten Wagen)
+ * @param figures Anzahl gegebener Personen (2 pro kompletten Wagen)
  * @return Anzahl komplett herstellbarer Autos
 */
 
