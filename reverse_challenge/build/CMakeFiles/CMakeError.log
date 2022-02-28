@@ -1,0 +1,42 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /Users/klara/Desktop/Uni/WS2021:2022/thesis_exercises/reverse_challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5c211/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5c211.dir/build.make CMakeFiles/cmTC_5c211.dir/build
+CMakeFiles/cmTC_5c211.dir/build.make:64: *** target pattern contains no `%'.  Stop.
+make: *** [cmTC_5c211/fast] Error 2
+
+
+
+Detecting CXX [-std=c++1z] compiler features failed to compile with the following output:
+Change Dir: /Users/klara/Desktop/Uni/WS2021:2022/thesis_exercises/reverse_challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_31444/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_31444.dir/build.make CMakeFiles/cmTC_31444.dir/build
+CMakeFiles/cmTC_31444.dir/build.make:64: *** target pattern contains no `%'.  Stop.
+make: *** [cmTC_31444/fast] Error 2
+
+
+
